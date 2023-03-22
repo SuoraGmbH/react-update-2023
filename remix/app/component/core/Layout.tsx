@@ -5,7 +5,7 @@ import classNames from "classnames";
 import {NavLink} from "@remix-run/react";
 
 const navigation = [
-  { name: "Home", to: "/home" },
+  { name: "Home", to: "/" },
   { name: "Projects", to: "/projects" },
   { name: "Time Entries", to: "/timeEntries" },
 ];
