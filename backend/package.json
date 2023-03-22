@@ -1,0 +1,12 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "json-server": "^0.17.0",
+    "copyfiles": "^2.4.1"
+  },
+  "scripts": {
+    "backend": "copyfiles --flat --soft .database-dist/database.json . && json-server --watch database.json -p 4712"
+  }
+}
